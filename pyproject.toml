@@ -1,0 +1,13 @@
+[project]
+name = "gnews-server"
+version = "0.1.0"
+description = "MCP server for Gnews API with search and top headlines endpoints"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=1.26.0",
+    "requests>=2.31.0",
+    "pydantic>=2.0.0",
+    "fastapi>=0.135.1",
+    "scalekit-sdk-python>=2.5.0",
+]
